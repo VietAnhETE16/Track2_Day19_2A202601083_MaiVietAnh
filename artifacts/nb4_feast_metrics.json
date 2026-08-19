@@ -1,0 +1,19 @@
+{
+  "feature_views": [
+    "user_profile_features",
+    "item_popularity_features",
+    "query_velocity_features"
+  ],
+  "online_lookup_u_001": {
+    "user_id": "u_001",
+    "topic_affinity": "cloud",
+    "preferred_language": "vi",
+    "reading_speed_wpm": 187,
+    "distinct_topics_24h": 4,
+    "queries_last_hour": 11
+  },
+  "online_lookup_p50_ms": 0.71,
+  "online_lookup_p95_ms": 1.06,
+  "online_lookup_p99_ms": 1.62,
+  "pit_join_3_rows_verified": true
+}

@@ -1,0 +1,17 @@
+{
+  "budget_docs": 16,
+  "single_shot": {
+    "recall": 0.526,
+    "balance": 0.08
+  },
+  "agentic_no_filter": {
+    "recall": 0.906,
+    "balance": 0.93
+  },
+  "agentic_with_filter": {
+    "recall": 0.823,
+    "balance": 0.76
+  },
+  "agentic_beats_single_shot_recall": true,
+  "agentic_beats_single_shot_balance": true
+}

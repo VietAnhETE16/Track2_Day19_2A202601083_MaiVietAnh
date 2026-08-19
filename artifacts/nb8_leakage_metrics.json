@@ -1,0 +1,48 @@
+{
+  "session_id_leakage": [
+    {
+      "encoding": "frequency",
+      "train_auc": 0.5207494388075319,
+      "test_auc": 0.5159342272682783,
+      "gap": 0.004815211539253572
+    },
+    {
+      "encoding": "target-naive",
+      "train_auc": 0.9985907891022678,
+      "test_auc": 0.5216942350983654,
+      "gap": 0.4768965540039024
+    },
+    {
+      "encoding": "target-in-fold",
+      "train_auc": 0.5191935578930389,
+      "test_auc": 0.5216942350983654,
+      "gap": -0.0025006772053265403
+    }
+  ],
+  "user_id_leakage": [
+    {
+      "encoding": "frequency",
+      "train_auc": 0.7264134760638875,
+      "test_auc": 0.7082955422879079,
+      "gap": 0.01811793377597959
+    },
+    {
+      "encoding": "target-naive",
+      "train_auc": 0.7492722851054194,
+      "test_auc": 0.6975419507792024,
+      "gap": 0.05173033432621699
+    },
+    {
+      "encoding": "target-in-fold",
+      "train_auc": 0.7135980217900877,
+      "test_auc": 0.6975419507792024,
+      "gap": 0.016056071010885242
+    }
+  ],
+  "pit_vs_latest": {
+    "leaked_row_fraction": 0.982,
+    "latest_join_auc": 0.715,
+    "pit_join_auc": 0.595,
+    "artificial_lift_auc": 0.12
+  }
+}

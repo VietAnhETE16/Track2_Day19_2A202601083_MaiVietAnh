@@ -41,6 +41,9 @@ benchmark: ## [both] Precision@10 (keyword/semantic/hybrid) + P99 latency table
 test: ## [both] Run pytest (app + scripts)
 	@$(PYTEST) -q
 
+submission-check: ## [both] Full automated verification for grading
+	@$(PY) scripts/submission_check.py
+
 gen-advanced: ## [both] Generate data for the advanced missions (NB6 + NB8)
 	@$(PY) scripts/gen_agent_queries.py
 	@$(PY) scripts/gen_spend.py

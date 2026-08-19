@@ -1,0 +1,8 @@
+threshold,savings_pct,false_hit_pct,assessment
+0.60,100%,97%,NGUY HIEM
+0.70,100%,60%,NGUY HIEM
+0.75,100%,36%,NGUY HIEM
+0.80,100%,5%,can bang
+0.85,100%,0%,can bang
+0.90,96%,0%,can bang
+0.95,53%,0%,qua chat

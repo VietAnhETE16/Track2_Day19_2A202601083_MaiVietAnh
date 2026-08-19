@@ -1,0 +1,6 @@
+filter_name,selectivity_pct,post_filter_recall,filtered_ann_recall
+khong_filter,100.0,1.00,1.00
+access_internal,23.6,0.30,1.00
+tenant_acme,31.9,0.20,1.00
+published_2026,13.5,0.10,1.00
+acme_and_2026,3.8,0.00,1.00

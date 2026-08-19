@@ -1,0 +1,29 @@
+{
+  "avg_precision_at_10": {
+    "keyword": 0.778,
+    "semantic": 0.732,
+    "hybrid": 0.786
+  },
+  "slice_precision_at_10": {
+    "exact": {
+      "n": 15,
+      "keyword": 0.9666666666666667,
+      "semantic": 0.8866666666666667,
+      "hybrid": 0.9666666666666667
+    },
+    "paraphrase": {
+      "n": 15,
+      "keyword": 0.3333333333333333,
+      "semantic": 0.24,
+      "hybrid": 0.32
+    },
+    "mixed": {
+      "n": 20,
+      "keyword": 0.97,
+      "semantic": 0.985,
+      "hybrid": 1.0
+    }
+  },
+  "hybrid_beats_keyword": true,
+  "hybrid_beats_semantic": true
+}

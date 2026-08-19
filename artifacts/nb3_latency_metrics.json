@@ -1,0 +1,19 @@
+{
+  "benchmark_rep_count": 100,
+  "keyword": {
+    "p50_server_ms": 2.8,
+    "p95_server_ms": 4.6,
+    "p99_server_ms": 6.3
+  },
+  "semantic": {
+    "p50_server_ms": 138.5,
+    "p95_server_ms": 179.0,
+    "p99_server_ms": 197.0
+  },
+  "hybrid": {
+    "p50_server_ms": 113.2,
+    "p95_server_ms": 179.6,
+    "p99_server_ms": 201.1
+  },
+  "warmup_completed": true
+}

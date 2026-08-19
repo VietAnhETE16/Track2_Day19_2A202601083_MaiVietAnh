@@ -1,0 +1,8 @@
+{
+  "collection_name": "lab19",
+  "vector_count": 1000,
+  "dimension": 384,
+  "distance": "Cosine",
+  "model_name": "BAAI/bge-small-en-v1.5",
+  "status": "PASS"
+}
